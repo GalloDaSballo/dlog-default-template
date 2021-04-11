@@ -20,7 +20,7 @@ const MUMBAI_EXPLORER_URL = "https://explorer-mumbai.maticvigil.com";
 /** TODO */
 export const MUMBAI_CONTRACT_ADDR = mumbaiDeployment.address;
 const MUMBAI_THE_GRAPH_URL =
-    "https://api.thegraph.com/subgraphs/name/gallodasballo/poster";
+    "https://thegraph.com/explorer/subgraph/gallodasballo/opensky";
 export const POSTER_ABI = mumbaiDeployment.abi;
 
 /** Set them into settings objects */
