@@ -1,5 +1,3 @@
-import mumbaiDeployment from "../deployments/mumbai/Poster.json";
-
 export const AUTHOR_ADDRESS =
     (process.env.REACT_APP_AUTHOR_ADDRESS ||
     "0x223ecddc2ff392e286c88d742198eb447f34f67e").toLowerCase();
@@ -18,18 +16,14 @@ const MUMBAI_RPC =
 const MUMBAI_EXPLORER_URL = "https://explorer-mumbai.maticvigil.com";
 
 /** TODO */
-export const MUMBAI_CONTRACT_ADDR = mumbaiDeployment.address;
 const MUMBAI_THE_GRAPH_URL =
     "https://thegraph.com/explorer/subgraph/gallodasballo/opensky";
-export const POSTER_ABI = mumbaiDeployment.abi;
 
 /** Set them into settings objects */
 const devSettings = {
     RPC: MUMBAI_RPC,
     CHAIN_ID: MUMBAI_CHAIN_ID,
     GRAPH_URL: MUMBAI_THE_GRAPH_URL,
-    CONTRACT_ADDRESS: MUMBAI_CONTRACT_ADDR,
-    CONTRACT_ABI: POSTER_ABI,
     EXPLORER_URL: MUMBAI_EXPLORER_URL,
 };
 
